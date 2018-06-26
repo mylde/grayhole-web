@@ -1,0 +1,11 @@
+version: '3'
+services:
+  golang:
+    build: .
+    container_name: grayhole-golang
+    working_dir: '/go/src/grayhole'
+    volumes:
+      - ./src:/go/src/grayhole
+    ports:
+      - 80:80
+    command: 'go run main.go'

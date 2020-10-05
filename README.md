@@ -1,3 +1,3 @@
-# grayhole-web-golang
+# grayhole-web
 
 Not black but gray.
